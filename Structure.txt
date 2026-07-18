@@ -1,0 +1,21 @@
+detective_game/                      <-- Project Root Folder
+│
+├── launcher game.bat                <-- Launcher
+│
+├── data/
+│   └── settings.json                <-- Configuration limits storage
+│
+├── logs/
+│   └── game_errors.txt              <-- Output diagnostics target
+│
+├── src/                             <-- ALL Graphic and Generator files
+│   ├── Male.psd
+│   ├── Female.psd
+│   ├── test_character_generator.py  
+│   ├── Noir_Men_Portraits/          <-- Character graphics
+│   └── RetroWindowsGUI/             <-- UI skin graphics/sprites
+│
+└── backend/                         
+    ├── game.py                      <-- Main Pygame client loop script
+    └── engine/                      <-- Core mechanics package
+        └── game_controller.py
